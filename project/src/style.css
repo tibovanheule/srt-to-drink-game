@@ -1,0 +1,14 @@
+.centerdiv {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 4%;
+}
+
+body {
+    margin: 0;
+    background-color: #312f30;
+}

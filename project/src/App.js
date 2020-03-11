@@ -37,8 +37,8 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <p>Upload your srt file</p>
+            <div className={"centerdiv"}>
+                <h1>Upload your srt file</h1>
                 <input type={"file"} onChange={this.srt}/>
                 {this.state.count !== undefined && <div id={"result"}>
                     {this.state.count.map((key) =>
